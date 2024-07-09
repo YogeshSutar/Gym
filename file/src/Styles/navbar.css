@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ulcontent {
+    background-color: rgba(5, 5, 5, 0.603);
+    display: flex;
+    justify-content: center; 
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+}
+
+.ulcontent li {
+    list-style-type: none; 
+    padding: 15px;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    /* font-family:'Courier New', Courier, monospace; */
+    transition: 0.2s;
+    padding: 15px 10px;
+
+}
+
+ul a:hover{
+    color: rgb(255, 249, 162);
+    background-color: rgba(83, 83, 83, 0.699);
+    padding: 10px 10px;
+    border-radius: 2px;
+}
