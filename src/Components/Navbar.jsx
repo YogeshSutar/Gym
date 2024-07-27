@@ -9,6 +9,7 @@ const Navbar=()=>{
             <li className='licontent'><Link to="/Dashboard">DASHBOARD</Link></li>
             <li className='licontent'><Link to="/AboutUs">ABOUT US</Link></li>
             <li className='licontent'><Link to="/ContactUs">CONTACT US</Link></li>
+            <li className='licontent'><Link to="/IncrementDecrement">Number Count</Link></li>
         </ul>
         </nav>
         </>
